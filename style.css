@@ -1,0 +1,108 @@
+/* Styly pro základní vzhled stránky */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#95b8ff ;
+}
+
+body {
+    animation: changeBackground 8s alternate; /* Animace barevného pozadí */
+    }
+    
+    @keyframes changeBackground {
+        0% {
+        background-color: #ffcccc; /* První barva pozadí */
+        }
+        40% {
+        background-color: #95b8ff; /* Nová druhá barva pozadí */
+        }
+        60% {
+        background-color: #878ce9; /* Nová třetí barva pozadí */
+        }
+        100% {
+        background-color: #ffcccc; /* První barva pozadí */
+        }
+    }  
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="datetime-local"],
+input[type="number"] {
+    width: calc(100% - 22px); /* Šířka formulářových prvků s odsazením */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+select {
+    width: calc(100% - 22px); /* Šířka selectu s odsazením */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select:focus,
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
