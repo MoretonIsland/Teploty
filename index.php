@@ -64,7 +64,7 @@ fclose($fileHandle);
 
 </table>
 
-<h2>Delete Data</h2>
+<h2>Smazat data</h2>
 
 <form action="delete.php" method="post">
 <label for="index">Vyberte záznam k odstranění:</label>
