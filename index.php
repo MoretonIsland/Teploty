@@ -90,7 +90,7 @@ fclose($fileHandle);
 </form>
 
 
-<h2>Vložit nová data</h2>
+<h2>Vložit data</h2>
 <form id="insertForm">
     <label for="date">Datum:</label>
     <input type="datetime-local" id="date" name="date" required><br><br>
