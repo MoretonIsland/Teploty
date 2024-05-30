@@ -4,8 +4,7 @@ Tato webová aplikace, ve které jsou použity programovací jazyky HTML, CSS, P
 1.	Soubor index.php
 Tento soubor obsahuje HTML strukturu stránky spolu s PHP kódem pro načítání, zobrazování a mazání dat z CSV databáze, stejně jako JavaScript kód pro odesílání nových dat pomocí API. 
 Částí souboru:
-HTML struktura obsahuje základní HTML značky pro vytvoření stránky, včetně záhlaví (<head>), těla (<body>) a kontejneru (<div class="container">).
-Tabulka zobrazuje data z CSV databáze.
+HTML struktura obsahuje základní HTML značky pro vytvoření stránky, včetně záhlaví (<head>), těla (<body>) a kontejneru (<div class="container">). Tabulka zobrazuje data z CSV databáze.
 Každý řádek CSV souboru vytváří odpovídající řádek v tabulce.
 Každý řádek je rozdělen na buňky, které obsahují hodnoty teplot.
 Formulář pro mazání dat umožňuje uživateli vybrat záznam k odstranění. Načítá obsah CSV souboru a dává možnosti pro výběr záznamů.
